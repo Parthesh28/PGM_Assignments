@@ -37,7 +37,7 @@ public class PGM_Experiment_2 {
                 }
             }
         }
-
+        
         double probability = (count_5 == 0) ? 0 : (double) purchased_true / count_5;
 
         System.out.println("Number of customers with more than 5 views: " + count_5);
